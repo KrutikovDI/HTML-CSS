@@ -7,6 +7,40 @@
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+  <div class="_hidden">
+    <input type="checkbox" id="popub1" class="popub_toggle">
+    <div class="popub">
+      <div class="popub_content">
+        <form>
+          <label for="popub1" class="popub_close">&times;</label>
+          <h1 class="h2 title_trend">ваш фидбек</h1>
+          <label class="label_popub">
+            <h4 class="article_text">Как часто вы заходите на сайт?</h4>
+            <select class="select_popub search_input" placeholder="Почти каждый день" required>
+              <option value="everyday">Почти каждый день</option>
+              <option value="everyweek">Несколько раз в неделю</option>
+            </select>
+          </label>
+          <div class="radio_popubs">
+            <h4 class="article_text">Вы подписаны на e-mail рассылку?</h4>
+            <label class="radio_label">
+              <input type="radio" class="radio" name="radio-group">
+              <span class="radio_text">Да</span>
+            </label>
+            <label>
+              <input type="radio" class="radio" name="radio-group">
+              <span class="radio_text">Нет</span>
+            </label>
+          </div>
+          <label class="text_popub">
+            <h4 class="article_text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</h4>
+            <textarea placeholder="Может больше рецептов?" class="textarea_popub search_input"></textarea>
+          </label>
+          <button type="button" class="button_email">отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
   <header class="header">
     <div class="container_header">
       <div class="logo_menu">
